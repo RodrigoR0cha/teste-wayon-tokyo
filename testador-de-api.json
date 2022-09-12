@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "a757d1c3-dc26-4df5-b0b2-5474ef4fa785",
+		"name": "teste-tokio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "transferencia-bancaria-agendada",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"contaPrincipio\": \"01234-5\",\r\n   \"contaDestino\": \"54321-0\",\r\n   \"valorTransferido\": 2680,\r\n   \"data\": \"2022-09-12\"     \r\n}    ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/transferencia/bancaria/agendada",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"transferencia",
+						"bancaria",
+						"agendada"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "listagem-de-transferencia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/transferencia/listagem-de-transferencia",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"transferencia",
+						"listagem-de-transferencia"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

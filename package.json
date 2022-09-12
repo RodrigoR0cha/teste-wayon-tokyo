@@ -1,0 +1,23 @@
+{
+  "name": "teste-wayon-tokyo",
+  "version": "1.0.0",
+  "description": "Teste Wayon",
+  "main": "teste",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "null"
+  },
+  "keywords": [
+    "000"
+  ],
+  "author": "Rodrigo Rocha",
+  "license": "ISC"
+}
+
+
